@@ -23,8 +23,10 @@ public class Thread_12_Resume {
 
         r1.start();
         r2.start();
+        System.out.println("Suspending the thread");
         r2.suspend();   // Suspending
         r3.start();
+        System.out.println("Resuming the thread");
         r2.resume();    // Resuming
     }
 }

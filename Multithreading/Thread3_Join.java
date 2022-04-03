@@ -5,7 +5,7 @@ package Java_Ad.Multithreading;
 class Th31 extends Thread {
     int i=0;
     public void run(){
-        while(i <20) {
+        while(i <15) {
             System.out.println("My Name is A1");
             i++;
         }
@@ -15,7 +15,7 @@ class Th31 extends Thread {
 class Th32 extends Thread {
     int i=0;
     public void run(){
-        while(i<20)
+        while(i<15)
         {
             System.out.println("My Name is B1");
             i++;
@@ -26,7 +26,7 @@ class Th32 extends Thread {
 class Th33 extends Thread {
     int i=0;
     public void run(){
-        while(i<20)
+        while(i<15)
         {
             System.out.println("My Name is C1");
             i++;

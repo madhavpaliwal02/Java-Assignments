@@ -53,7 +53,9 @@ public class Thread_16_Interrupt {
         // Type - 3 -> Interrupting a thread that behaves normally
         Interrupt3 i3 = new Interrupt3();
         i3.start();
+        System.out.println("Thread started");
         i3.interrupt();
+        System.out.println("Thread interuppted using interrupt() method");
 
     }
 }

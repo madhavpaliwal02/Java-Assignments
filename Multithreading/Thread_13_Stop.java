@@ -23,6 +23,7 @@ public class Thread_13_Stop {
 
         s1.start();
         s2.start();
+//	    s3.start();
         s3.stop();      // Stopping
         System.out.println("Thread-3 is stopped" + Thread.currentThread().getName());
     }

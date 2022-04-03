@@ -14,12 +14,13 @@ public class Thread_17_IsInterrupted {
 
         i1.start();
         i2.start();
-
+        System.out.println("Threads before interrupted");
         System.out.println("I1 before " + i1.isInterrupted());
         System.out.println("I2 before " + i2.isInterrupted());
 
         i1.interrupt();
 
+        System.out.println("Threads after interrupted");
         System.out.println("I1 after " + i1.isInterrupted());
         System.out.println("I2 after " + i2.isInterrupted());
     }

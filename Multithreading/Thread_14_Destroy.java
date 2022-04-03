@@ -30,7 +30,9 @@ public class Thread_14_Destroy {
 
         // creating threads
         Destroy d1 =  new Destroy("Thread-1", tg1);
+        System.out.println(tg1.getName() + " created");
         Destroy d2 =  new Destroy("Thread-2", tg1);
+        System.out.println(tg2.getName() + " created");
 
         // block until other thread is finished
         d1.join();
