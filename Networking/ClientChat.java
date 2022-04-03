@@ -1,5 +1,3 @@
-package Projects.ChatApplication;
-
 import java.io.*;
 import java.net.*;
 

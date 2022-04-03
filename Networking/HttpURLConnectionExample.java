@@ -1,5 +1,3 @@
-package advance.Networking;
-
 import java.net.HttpURLConnection;
 import java.net.URL;
 

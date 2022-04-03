@@ -1,5 +1,3 @@
-package advance.Networking;
-
 import java.net.*;
 public class URLDemo{
     public static void main(String[] args){

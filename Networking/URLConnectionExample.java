@@ -1,5 +1,3 @@
-package advance.Networking;
-
 import java.io.*;
 import java.net.*;
 

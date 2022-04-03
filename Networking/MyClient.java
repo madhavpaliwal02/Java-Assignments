@@ -1,6 +1,3 @@
-package advance.Networking;
-
-
 import jdk.nashorn.internal.runtime.ECMAException;
 
 import java.io.BufferedReader;

@@ -1,5 +1,3 @@
-package advance.Networking;
-
 import java.net.InetAddress;
 import java.util.Arrays;
 
