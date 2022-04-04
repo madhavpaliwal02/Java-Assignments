@@ -1,5 +1,5 @@
 import java.net.*;
-public class URLDemo{
+public class URLDemo1{
     public static void main(String[] args){
         try{
             // Example - 2
